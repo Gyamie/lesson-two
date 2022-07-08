@@ -1,0 +1,43 @@
+/* #ffff00* {
+	
+} */
+
+.container {
+    display: flex;
+}
+
+.surprise_box {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.blind {
+    position: absolute;
+    width: 255px;
+    height: 100px;
+    background-color: yellow;
+    z-index: 2;
+}
+
+#Result_Container {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 5%;
+}

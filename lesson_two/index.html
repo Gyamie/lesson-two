@@ -1,0 +1,99 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Lesson 2</title>
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h2>Lesson2 (Functions & Controlling Statements)</h2>
+    <p>A game for 4eyes, guess the box the even number</p>
+    <div class="container">
+        <div class="surprise_box" id="box1_container">
+            <span class="blind"></span>
+            <span id="box_1" class="box"></span>
+        </div>
+        <div class="surprise_box" id="box2_container">
+            <span class="blind"></span>
+            <span id="box_2" class="box"></span>
+        </div>
+        <div class="surprise_box" id="box3_container">
+            <span class="blind"></span>
+            <span id="box_3" class="box"></span>
+        </div>
+        <div class="surprise_box" id="box4_container">
+            <span class="blind"></span>
+            <span id="box_4" class="box"></span>
+        </div>
+        <div class="surprise_box" id="box5_container">
+            <span class="blind"></span>
+            <span id="box_5" class="box"></span>
+        </div>
+    </div>
+    <div id="Result_Container">
+    </div>
+    <script src="Js/index.js"></script>
+    <style>
+        .footer,
+        .generic-footer {
+            margin-bottom: 98px
+        }
+        
+        @media (min-width:374px) {
+            .footer,
+            .generic-footer {
+                margin-bottom: 78px
+            }
+        }
+        
+        @media (min-width:546px) {
+            .footer,
+            .generic-footer {
+                margin-bottom: 56px
+            }
+        }
+        
+        @media (min-width:1055px) {
+            .footer,
+            .generic-footer {
+                margin-bottom: 0
+            }
+        }
+        
+        .disclaimer {
+            position: fixed;
+            z-index: 9999999;
+            bottom: 0;
+            right: 0;
+            border-top: 2px solid #ff5c62;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+            background-color: #fff;
+            padding: 5px 10px 5px 10px
+        }
+        
+        .disclaimer a:hover {
+            text-decoration: underline
+        }
+        
+        @media (min-width:1052px) {
+            .disclaimer {
+                text-align: right;
+                border-left: 2px solid red;
+                border-top-left-radius: 10px
+            }
+        }
+        
+        @media (min-width:1920px) {
+            .disclaimer {
+                width: 60%
+            }
+        }
+    </style>
+    <div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447"
+            style="color: black;"><b>HERE</b></a></div>
+</body>
+
+</html>
